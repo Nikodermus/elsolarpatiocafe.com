@@ -1,4 +1,77 @@
 @require "../helpers/mixins.styl"
 
+.header
+    background: color-brand-green
+    left: 0
+    padding: sizing-SM sizing-8XL
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 1000
+
+    &__logo
+        width: sizing-7XL
+
 nav
-    width: auto
+    display: inline-block
+    position: absolute
+    right: sizing-8XL
+
+.navegador
+    display: inline-block
+    list-style: none
+    vertical-align: middle
+
+    &__item
+        text-decoration: none
+
+    &__link
+        color: white
+        display: inline-block
+        margin: 0 sizing-XL
+        text-transform: uppercase
+
+        &--nosotros:hover
+            color: color-brand-yellow
+
+        &--menu:hover
+            color: color-brand-blue-light-2
+
+        &--contacto:hover
+            color: color-brand-green-light
+
+.redes-sociales
+    display: inline-block
+    vertical-align: middle
+
+    &__icono
+        margin: 0.5rem
+        width: 1.5rem
+
+.slider
+    margin-top: sizing-5XL
+    position: relative
+
+    &__img
+        margin: auto
+        width: 100%
+
+    &__boton
+        background: transparent
+        border: 0
+        box-shadow: none
+        color: color-brand-green
+        font-size: sizing-2XL
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+
+        &:hover
+            color: #f3a246
+            cursor: pointer
+
+        &--left
+            sizing-XL
+
+        &--right
+            sizing-XL

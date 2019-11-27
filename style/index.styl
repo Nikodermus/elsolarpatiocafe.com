@@ -1,10 +1,10 @@
 @require "./helpers/reset"
 @require "./helpers/mixins"
 @require "./helpers/miscelanous"
-
+@require "./helpers/tokens"
 // You can remove this on release
-@require "./vendor/a11y"
-
+// @require "./vendor/a11y"
+@require "./library/fonts"
 @require "./components/*"
 
 :root
@@ -22,6 +22,7 @@ html
 
     body
         font-family: @font-family
+        font-family: "oswald", sans-serif
         max-width: @max-width
         min-height: 100%
         overflow-x: hidden
@@ -39,4 +40,152 @@ h3
 h4
 h5
 h6
-    font-family: font-family-title, font-family-sans
+    font-family: "Oswald", sans-serif
+
+article
+    text-align: center
+
+.nosotros
+    background-image: url("/static/img/background-orange.jpg")
+    padding: sizing-6XL 0
+
+    &__contenido
+        font-size: 0
+        margin: 2rem auto
+        max-width: 1000px
+
+    &__columna
+        display: inline-block
+        padding: 0 1rem
+        width: 50%
+
+    &__parrafo
+        color: white
+        font-size: 1rem
+        font-weight: font-weight-lgt
+        margin: 2rem 0
+        text-align: justify
+        width: 100%
+
+h2
+    color: white
+    display: inline-block
+    font-size: sizing-4XL
+    font-weight: 300
+    text-align: center
+    text-transform: uppercase
+
+    &::before
+        background: white
+        content: ""
+        display: block
+        height: 0.3rem
+        width: 75%
+
+.menu
+    background-image: url("/static/img/background-blue.jpg")
+    padding: 4rem 0
+
+    &__contenido
+        margin: 3rem 1rem
+        margin: auto
+        max-width: 75rem
+        max-width: 1000px
+
+    &__contenedor
+        margin-top: -10rem
+
+        &--primero
+            margin-top: 2rem
+            transform: translateY(0)
+
+    &__imagen
+        display: inline-block
+        vertical-align: middle
+        width: 33%
+
+        &:hover
+            transform: scale(1.3)
+
+    &__titulo
+        display: inline-block
+        font-size: 2rem
+        font-weight: 400
+        text-align: center
+        text-transform: uppercase
+        vertical-align: middle
+        width: 33%
+
+        &--derecha
+            margin-right: 33%
+            text-align: left
+
+        &--izquierda
+            margin-left: 33%
+            text-align: right
+
+        &--entradas
+            color: color-brand-blue-light-2
+
+        &--parrilladas
+            color: color-brand-red
+
+        &--fuertes
+            color: color-brand-yellow
+
+        &--bebidas
+            color: color-brand-green-light
+
+.contacto
+    background-image: url("/static/img/background-green-claro.jpg")
+    padding: 2rem 0
+
+    &__contenido
+        font-size: 0
+        margin: 3rem auto
+        max-width: 1000px
+
+    &__columna
+        display: inline-block
+        padding: 0 1rem
+        vertical-align: top
+        width: 50%
+
+    &__campo
+        font-size: 1rem
+        margin: 1rem
+        text-align: left
+
+textarea
+input
+    background: none
+    border: none
+    border-bottom: 0.2rem solid white
+    color: white
+    width: 100%
+
+input::-webkit-input-placeholder
+    color: white
+
+input:-moz-placeholder
+input:-ms-input-placeholder
+    color: white
+
+input[placeholder]
+    color: white
+
+button
+    background-color: #f3a246
+    border: none
+    border-radius: 3px
+    color: white
+    cursor: pointer
+    padding: 0.5rem
+    text-align: center
+    text-decoration: none
+
+
+
+/* .fuertes__texto_contenido
+max-height: 35rem
+overflow: auto */
