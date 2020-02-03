@@ -52,7 +52,7 @@ require './pages/lib/popup.php';
         <h2>Menú</h2>
         <div class="menu__contenido">
             <div class="menu__contenedor menu__contenedor--primero">
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="entradas" class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
                 <h3 class="menu__titulo menu__titulo--derecha menu__titulo--entradas">Entradas</h3>
             </div>
             <div class="menu__contenedor ">

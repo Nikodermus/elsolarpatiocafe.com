@@ -1,4 +1,4 @@
-<aside class="flotante">
+<aside id="popUPEntradas" class="flotante">
     <div class="flotante__contenido">
         <div class="flotante__header">
             <h2 class="flotante__titulo flotante__entradas">Entradas</h2>

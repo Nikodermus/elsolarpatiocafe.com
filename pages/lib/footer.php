@@ -13,8 +13,8 @@
                 <p class="footer__texto">Calle 68 Nº 11-21</p>
                 <p class="footer__texto">reservas@elsolarpatiocafe.com</p>
             </div>
-            <div class="footer__columna">
-                <h4 class="footer__title">Síguenos</h4>
+            <div class="footer__columna footer__columna--flex">
+                <h4 class="footer__title footer__title--w-100">Síguenos</h4>
                 <a href="https://www.facebook.com/elsolarpatiocafe/" target="_blank">
                     <img class="redes-sociales__icono" src="/static/img/redes-sociales-fb-blanco.png" alt="logo facebook blanco" />
                 </a>
