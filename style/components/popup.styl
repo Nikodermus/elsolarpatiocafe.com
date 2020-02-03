@@ -2,6 +2,7 @@
 
 .flotante
     background-color: rgba(0, 0, 0, 0.4)
+    display: none
     height: 100vh
     left: 0
     opacity: 50
@@ -12,6 +13,7 @@
 
     &__contenido
         background-color: white
+        // height: 100%
         margin: 0 auto
         max-width: 500px
         position: relative
@@ -20,6 +22,12 @@
 
     &__entradas
         background-color: #6fcecf
+
+    &__parrilla
+        background-color: #882f2b
+
+    &__fuertes
+        background-color: #f3a246
 
     &__titulo
         color: white
@@ -60,11 +68,11 @@
         font-weight: 700
         text-align: right
 
-        &--dos
+        &_dos
             color: black
             float: right
-            font-size: 1rem
-            font-weight: 700
+            font-size: 0.9rem
+            font-weight: 400
             margin-top: 0.5rem
             text-align: right
 
@@ -148,17 +156,26 @@
     transform: scale(2) translateY(0.1rem)
 
 .fuertes
+    display: flex
+    justify-content: space-between
+    max-height: 70vh
+    overflow: auto
+    padding: 0 2rem 2rem
+    width: 100%
+
     &__titulo-1
         background-color: #f3a246
 
-    &__flotante-lista::marker
-        color: #f3a246
-        font-size: 2rem
-        margin-right: -10px
+    &__flotante-lista-margin
+        margin-bottom: 50px
+
+        :&::marker
+            color: #f3a246
+            font-size: 2rem
+            margin-right: -10px
 
     &__columna
-        float: left
-        width: 50%
+        width: 48%
 
     &__titulo
         color: #f3a246
@@ -169,10 +186,16 @@
         ::marker
             margin-left: 2rem
 
-    &.flotante__contenido
+        &--no-padding
+            padding: 0
+
+    &__flotante-contenido
         max-width: 1000px
+        width: 1000px
 
 .postres
+    padding: 2rem
+
     &__titulo
         background-color: #cad54e
 
@@ -182,6 +205,11 @@
         margin-right: -10px
 
 .bebidas
+    display: flex
+    justify-content: space-between
+    padding: 0 2rem 2rem
+    width: 100%
+
     &__titulo
         background-color: #cad54e
 
@@ -192,3 +220,7 @@
 
     &__flotante-contenido
         max-width: 850px
+        width: 850px
+
+.show
+    display: block

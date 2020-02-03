@@ -5,8 +5,20 @@ $keywords = 'keywords, divided, by, commas';
 
 require './pages/base/head.php';
 require './pages/lib/nav.php';
-// require './pages/lib/popup.php';
+require './pages/lib/popup.php';
 ?>
+<div class="slider">
+    <img class="slider__img" src="/static/img/slider-prueba-04.jpg" alt="restaurante" />
+    <img class="slider__img" src="/static/img/slider-prueba-reves-04.jpg" alt="restaurante" />
+    <img class="slider__img" src="/static/img/slider-prueba-04.jpg" alt="restaurante" />
+    <img class="slider__img" src="/static/img/slider-prueba-reves-04.jpg" alt="restaurante" />
+    <button class="slider__boton slider__boton--left" onclick="plusDivs(-1)">
+        &#10094;
+    </button>
+    <button class="slider__boton slider__boton--right" onclick="plusDivs(+1)">
+        &#10095;
+    </button>
+</div>
 
 <main>
     <article class="nosotros" id="nosotros">

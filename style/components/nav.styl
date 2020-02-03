@@ -1,7 +1,13 @@
 @require "../helpers/mixins.styl"
 
+nav
+    display: inline-block
+    right: sizing-8XLls
+
 .header
     background: color-brand-green
+    display: flex
+    justify-content: space-between
     left: 0
     padding: sizing-SM sizing-8XL
     position: fixed
@@ -11,11 +17,6 @@
 
     &__logo
         width: sizing-7XL
-
-nav
-    display: inline-block
-    position: absolute
-    right: sizing-8XL
 
 .navegador
     display: inline-block
@@ -54,6 +55,7 @@ nav
 
     &__img
         margin: auto
+        position: absolute
         width: 100%
 
     &__boton
@@ -64,7 +66,6 @@ nav
         font-size: sizing-2XL
         position: absolute
         top: 50%
-        transform: translateY(-50%)
 
         &:hover
             color: #f3a246
@@ -72,6 +73,8 @@ nav
 
         &--left
             sizing-XL
+            left: 10%
 
         &--right
             sizing-XL
+            right: 10%
