@@ -1,4 +1,4 @@
-<aside id="popUPEntradas" class="flotante">
+<aside id="popUpEntradas" class="flotante">
     <div class="flotante__contenido">
         <div class="flotante__header">
             <h2 class="flotante__titulo flotante__entradas">Entradas</h2>
@@ -61,7 +61,7 @@
         </ul>
     </div>
 </aside>
-<aside class="flotante">
+<aside id="popUpParrilladas" class="flotante">
     <div class="flotante__contenido">
         <div class="flotante__header">
             <h2 class="flotante__titulo flotante__parrilla">Parrilladas</h2>
@@ -127,7 +127,7 @@
         </div>
     </div>
 </aside>
-<aside class="flotante">
+<aside id="popUpFuertes" class="flotante">
     <div class="flotante__contenido fuertes__flotante-contenido ">
         <div class="fuertes__header">
             <h2 class="flotante__titulo flotante__fuertes">Fuertes</h2>
@@ -344,7 +344,7 @@
         </div>
     </div>
 </aside>
-<aside class="flotante">
+<aside id="popUpPostres" class="flotante">
     <div class="flotante__contenido postres__flotante-contenido ">
         <div class="flotante__header">
             <h2 class="postres__titulo flotante__titulo">Postres</h2>
@@ -380,7 +380,7 @@
 
             </ul>
 </aside>
-<aside class="flotante">
+<aside id="popUpBebidasCalientes" class="flotante">
     <div class="flotante__contenido postres__flotante-contenido">
         <div class="flotante__header">
             <h2 class="flotante__titulo postres__titulo">Bebidas Calientes</h2>
@@ -434,7 +434,7 @@
 
             </ul>
 </aside>
-<aside class="flotante ">
+<aside id="popUpBebidasFrias" class="flotante ">
     <div class="flotante__contenido bebidas__flotante-contenido">
         <div class="flotante__header">
             <h2 class="flotante__titulo bebidas__titulo">Bebidas</h2>

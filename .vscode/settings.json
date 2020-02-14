@@ -15,7 +15,6 @@
         "javascript": "html"
     },
     "eslint.options": {
-        "configFile": "<PATH_TO_DIR>/.eslintrc",
         "extensions": [".js", ".vue", ".jsx", "ts", "tsx"]
     },
     "[html]": {
@@ -26,5 +25,8 @@
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     }
 }

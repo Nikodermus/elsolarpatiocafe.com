@@ -52,28 +52,28 @@ require './pages/lib/popup.php';
         <h2>Menú</h2>
         <div class="menu__contenido">
             <div class="menu__contenedor menu__contenedor--primero">
-                <img id="entradas" class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="Entradas" class="popUp menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
                 <h3 class="menu__titulo menu__titulo--derecha menu__titulo--entradas">Entradas</h3>
             </div>
             <div class="menu__contenedor ">
                 <h3 class="menu__titulo menu__titulo--izquierda menu__titulo--parrilladas">Parrilladas</h3>
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="Parrilladas" class="menu__imagen popUp" src="/static/img/nachos.png" alt="entradas el solar" />
             </div>
             <div class="menu__contenedor ">
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="Fuertes" class="menu__imagen popUp" src="/static/img/nachos.png" alt="entradas el solar" />
                 <h3 class="menu__titulo menu__titulo--derecha menu__titulo--fuertes">Fuertes</h3>
             </div>
             <div class="menu__contenedor ">
                 <h3 class="menu__titulo menu__titulo--izquierda menu__titulo--bebidas">Postres</h3>
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="Postres" class="menu__imagen popUp" src="/static/img/nachos.png" alt="entradas el solar" />
             </div>
             <div class="menu__contenedor ">
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="BebidasCalientes" class="menu__imagen popUp" src="/static/img/nachos.png" alt="entradas el solar" />
                 <h3 class="menu__titulo menu__titulo--derecha menu__titulo--bebidas">Bebidas Calientes</h3>
             </div>
             <div class="menu__contenedor ">
                 <h3 class="menu__titulo menu__titulo--izquierda menu__titulo--bebidas">Bebidas</h3>
-                <img class="menu__imagen" src="/static/img/nachos.png" alt="entradas el solar" />
+                <img id="BebidasFrias" class="menu__imagen popUp" src="/static/img/nachos.png" alt="entradas el solar" />
             </div>
         </div>
     </article>
