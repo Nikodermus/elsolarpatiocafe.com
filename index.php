@@ -25,7 +25,7 @@ require './pages/lib/popup.php';
         <h2>Nosotros</h2>
 
         <div class="nosotros__contenido">
-            <div class="nosotros__columna">
+            <div class="nosotros__columna nosotros__columna--img1">
                 <img src="/static/img/tia-05.png" alt="" />
             </div>
             <div class="nosotros__columna">

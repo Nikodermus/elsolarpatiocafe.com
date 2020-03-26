@@ -73,9 +73,16 @@ nav
     position: relative
 
     &__img
+        height: 100%
         margin: auto
+        max-width: 250%
         position: absolute
-        width: 100%
+        width: auto
+
+        +below(768px)
+            height: 100%
+            max-width: 250%
+            width: auto !important
 
     &__boton
         background: transparent
@@ -97,3 +104,13 @@ nav
         &--right
             sizing-XL
             right: 10%
+
+    +below(768px)
+        display: flex
+        justify-content: center
+        margin-top: 0
+        min-height: 240px
+        overflow: hidden
+
+    +below(400px)
+        min-height: 160px

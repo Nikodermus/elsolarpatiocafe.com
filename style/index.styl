@@ -57,10 +57,22 @@ article
         margin: 2rem auto
         max-width: 1000px
 
+        +below(768px)
+            align-items: center
+            display: flex
+            flex-direction: column
+            justify-content: center
+
     &__columna
         display: inline-block
         padding: 0 1rem
         width: 50%
+
+        +below(768px)
+            width: 100%
+
+            &--img1
+                width: 70%
 
     &__parrafo
         color: white

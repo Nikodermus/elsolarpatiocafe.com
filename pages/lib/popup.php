@@ -1,11 +1,11 @@
 <aside id="popUpEntradas" class="flotante">
-    <div class="flotante__contenido">
+    <div class="flotante__contenido flotante__contenido--1">
         <div class="flotante__header">
             <h2 class="flotante__titulo flotante__entradas">Entradas</h2>
             <button class="equis" type="button">╳</button>
         </div>
         <ul class="lista">
-            <li class="lista__flotante">
+            <li class="lista__flotante ">
                 <div class="lista__encabezado">
                     <h3 class="lista__titulo">Crema de Champiñones</h3>
                     <small class="lista__precios">$ 6.500</small>
@@ -62,7 +62,7 @@
     </div>
 </aside>
 <aside id="popUpParrilladas" class="flotante">
-    <div class="flotante__contenido">
+    <div class="flotante__contenido flotante__contenido--1">
         <div class="flotante__header">
             <h2 class="flotante__titulo flotante__parrilla">Parrilladas</h2>
             <button class="equis" type="button">╳</button>
@@ -345,7 +345,7 @@
     </div>
 </aside>
 <aside id="popUpPostres" class="flotante">
-    <div class="flotante__contenido postres__flotante-contenido ">
+    <div class="flotante__contenido postres__flotante-contenido flotante__contenido--1">
         <div class="flotante__header">
             <h2 class="postres__titulo flotante__titulo">Postres</h2>
             <button class="equis" type="button">╳</button>
@@ -381,7 +381,7 @@
             </ul>
 </aside>
 <aside id="popUpBebidasCalientes" class="flotante">
-    <div class="flotante__contenido postres__flotante-contenido">
+    <div class="flotante__contenido postres__flotante-contenido flotante__contenido--1">
         <div class="flotante__header">
             <h2 class="flotante__titulo postres__titulo">Bebidas Calientes</h2>
             <button class="equis" type="button">╳</button>
@@ -435,7 +435,7 @@
             </ul>
 </aside>
 <aside id="popUpBebidasFrias" class="flotante ">
-    <div class="flotante__contenido bebidas__flotante-contenido">
+    <div class="flotante__contenido bebidas__flotante-contenido flotante__contenido--1">
         <div class="flotante__header">
             <h2 class="flotante__titulo bebidas__titulo">Bebidas</h2>
             <button class="equis" type="button">╳</button>
