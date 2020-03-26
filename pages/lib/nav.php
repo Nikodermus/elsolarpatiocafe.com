@@ -2,7 +2,7 @@
     <a href="./index.html">
         <img class="header__logo" src="/static/img/logo-blanco-espc.png" alt="logo en color blanco de el solar patio café" />
     </a>
-    <nav>
+    <nav class="nav">
         <ul class="navegador">
             <a href="#nosotros" class="navegador__item">
                 <li class="navegador__link navegador__link--nosotros">

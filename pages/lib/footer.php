@@ -9,9 +9,9 @@
             </div>
             <div class="footer__columna">
                 <h4 class="footer__title">Contáctanos</h4>
-                <p class="footer__texto">312 367 0148</p>
-                <p class="footer__texto">Calle 68 Nº 11-21</p>
-                <p class="footer__texto">reservas@elsolarpatiocafe.com</p>
+                <a href="tel:3123670148" class="footer__texto">312 367 0148</a>
+                <a href="#" class="footer__texto">Calle 68 Nº 11-21</a>
+                <a href="mailto:reservas@elsolarpatiocafe.com" class="footer__texto">reservas@elsolarpatiocafe.com</a>
             </div>
             <div class="footer__columna footer__columna--flex">
                 <h4 class="footer__title footer__title--w-100">Síguenos</h4>

@@ -18,6 +18,15 @@ nav
     &__logo
         width: sizing-7XL
 
+    +below(768px)
+        padding: 1rem
+        position: static
+
+.nav
+    +below(768px)
+        align-items: center
+        display: flex
+
 .navegador
     display: inline-block
     list-style: none
@@ -41,6 +50,12 @@ nav
         &--contacto:hover
             color: color-brand-green-light
 
+        +below(768px)
+            margin: 0 0.5rem
+
+    +below(768px)
+        margin-left: 1.5rem
+
 .redes-sociales
     display: inline-block
     vertical-align: middle
@@ -48,6 +63,9 @@ nav
     &__icono
         margin: 0.5rem
         width: 1.5rem
+
+    +below(768px)
+        display: none
 
 .slider
     margin-top: sizing-5XL
