@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
 <?php
-$language = 'en';
-$location = 'en_US';
-$site_name = 'The Website';
+$language = 'es';
+$location = 'es_ES';
+$site_name = 'El Solar Patio Café';
 $site_url = 'yourwebsite.com';
-$title_pattern = ' | The Website';
-$author = 'Author Name |';
+$title_pattern = ' |El Solar Patio Café';
+$author = 'DeBakatas - Yotfil |';
 $site_color = '#000000';
 $twitter_company = '@username';
 $twitter_author = '@wearedakio';

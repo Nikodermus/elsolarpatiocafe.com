@@ -1,4 +1,116 @@
 @require "../helpers/mixins.styl"
 
 nav
-    width: auto
+    display: inline-block
+    right: sizing-8XLls
+
+.header
+    background: color-brand-green
+    display: flex
+    justify-content: space-between
+    left: 0
+    padding: sizing-SM sizing-8XL
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 1000
+
+    &__logo
+        width: sizing-7XL
+
+    +below(768px)
+        padding: 1rem
+        position: static
+
+.nav
+    +below(768px)
+        align-items: center
+        display: flex
+
+.navegador
+    display: inline-block
+    list-style: none
+    vertical-align: middle
+
+    &__item
+        text-decoration: none
+
+    &__link
+        color: white
+        display: inline-block
+        margin: 0 sizing-XL
+        text-transform: uppercase
+
+        &--nosotros:hover
+            color: color-brand-yellow
+
+        &--menu:hover
+            color: color-brand-blue-light-2
+
+        &--contacto:hover
+            color: color-brand-green-light
+
+        +below(768px)
+            margin: 0 0.5rem
+
+    +below(768px)
+        margin-left: 1.5rem
+
+.redes-sociales
+    display: inline-block
+    vertical-align: middle
+
+    &__icono
+        margin: 0.5rem
+        width: 1.5rem
+
+    +below(768px)
+        display: none
+
+.slider
+    margin-top: sizing-5XL
+    min-height: 270px
+    position: relative
+
+    &__img
+        height: 100%
+        margin: auto
+        max-width: 250%
+        position: absolute
+        width: auto
+
+        +below(768px)
+            height: 100%
+            max-width: 250%
+            width: auto !important
+
+    &__boton
+        background: transparent
+        border: 0
+        box-shadow: none
+        color: color-brand-green
+        font-size: sizing-2XL
+        position: absolute
+        top: 50%
+
+        &:hover
+            color: #f3a246
+            cursor: pointer
+
+        &--left
+            sizing-XL
+            left: 10%
+
+        &--right
+            sizing-XL
+            right: 10%
+
+    +below(768px)
+        display: flex
+        justify-content: center
+        margin-top: 0
+        min-height: 240px
+        overflow: hidden
+
+    +below(400px)
+        min-height: 160px
